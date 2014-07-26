@@ -5,14 +5,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WICN32]
-		"ypos"			"r120"	[$WIN32]
+		"xpos"			"c-170"		[$WIN32]
+		"xpos_minmode"	"-5"		[$WIN32]
+		"ypos"			"c50"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"250"
+		"wide"			"240"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -24,70 +22,82 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
+		"xpos"			"78"
 		"xpos_minmode"	"60"
-		"ypos"			"35"
+		"ypos"			"55"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+		"color_override"	"0 0 0 255"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
-		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"xpos"			"77"
+		"xpos_minmode"	"60"
+		"ypos"			"54.5"
+		"zpos"			"4"
+		"wide"			"23"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
+		"image"			"../hud/health_bg"
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
-		"ypos"			"43"	[$X360]
-		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"xpos"			"99999"
+		"xpos_minmode"	"60"
+		"ypos"			"99999 "
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"5"	
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"xpos"			"10"
 		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"45"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"120"
+		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
-		"font"			"KenzoRegular16"
-		"fgcolor"		"TanDark"
+		"textAlignment"	"left"	
+		"font"			"BNTRegular52"
+		"fgcolor"		"255 255 255 255"
+	}	
+		"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"13"
+		"xpos_minmode"	"61"
+		"ypos"			"48"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"120"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"left"	
+		"font"			"BNTRegular52"
+		"fgcolor"		"0 0 0 255"
 	}								
 	"PlayerStatusBleedImage"
 	{
@@ -336,4 +346,60 @@
 		"image"			""
 		"fgcolor"		"TanDark"
 	}
-}
+	//Boxes
+	"Box1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Box1"
+		"xpos"			"2.5"
+		"xpos_minmode"	"60"
+		"ypos"			"38"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"fillcolor"		"0 0 0 200"
+	}	
+	
+	"TeamBox1"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamBox1"
+		"xpos"			"0"
+		"ypos"			"87"
+		"zpos"			"3"
+		"wide"			"105"
+		"tall"	 		"3"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
+	}	
+		"Box2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Box2"
+		"xpos"			"78"
+		"xpos_minmode"	"60"
+		"ypos"			"55"
+		"zpos"			"2"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"fillcolor"		"0 255 17 255"
+	}	
+	

@@ -16,14 +16,14 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
+		"xpos"	"c65"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
+		"ypos"	"c50"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
-		"wide"	"94"
-		"tall"	"45"
+		"wide"	"240"
+		"tall"	"120"
 	}
 	
 	HudObjectiveStatus
@@ -60,7 +60,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
 		"ypos_minmode"	"r50"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -74,16 +73,16 @@
 	HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"c65"	[$WIN32]
+		"xpos_minmode"	"r85"	[$WIN32]
+		"ypos"	"c50"	[$WIN32]
+		"ypos_minmode"	"r36"	[$WIN32]
+		"xpos"	"r131"	[$X360]
+		"ypos"	"r77"	[$X360]
+		"wide"	"240"
+		"tall"	"120"
 	}
 	
 	HudDemomanCharge

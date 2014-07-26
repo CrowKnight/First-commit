@@ -2395,166 +2395,373 @@ Scheme
 			}
 		}
 		
-		//Kenzo regular
-		
-		KenzoRegular12
+		//BNT Numbers
+		BNTRegular12
 		{
 			"1"
 			{
-				"name"		"Kenzo"
+				"name"		"BigNoodleTitling"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoRegular16
+		BNTRegular16
 		{
 			"1"
 			{
-				"name"		"Kenzo"
+				"name"		"BigNoodleTitling"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoRegular24
+		BNTRegular18
 		{
 			"1"
 			{
-				"name"		"Kenzo"
+				"name"		"BigNoodleTitling"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		BNTRegular20
+		{
+			"1"
+			{
+				"name"		"BigNoodleTitling"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		BNTRegular24
+		{
+			"1"
+			{
+				"name"		"BigNoodleTitling"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoRegular32
+		BNTRegular32
 		{
 			"1"
 			{
-				"name"		"Kenzo"
+				"name"		"BigNoodleTitling"
 				"tall"		"32"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoRegular36
+		BNTRegular36
 		{
 			"1"
 			{
-				"name"		"Kenzo"
+				"name"		"BigNoodleTitling"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoRegular42
+		BNTRegular42
 		{
 			"1"
 			{
-				"name"		"Kenzo"
+				"name"		"BigNoodleTitling"
 				"tall"		"42"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoRegular48
+		BNTRegular48
 		{
 			"1"
 			{
-				"name"		"Kenzo"
-				"tall"		"42"
+				"name"		"BigNoodleTitling"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		BNTRegular52
+		{
+			"1"
+			{
+				"name"		"BigNoodleTitling"
+				"tall"		"52"
 				"antialias" "1"
 			}
 		}
 		
-		//KenzoItalic
-		
-		KenzoItalic12
+		//Roboto for others
+		RobotoLight12
 		{
 			"1"
 			{
-				"name"		"Kenzo-Italic"
+				"name"		"Roboto-Light"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoItalic16
+		RobotoLight16
 		{
 			"1"
 			{
-				"name"		"Kenzo-Italic"
+				"name"		"Roboto-Light"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoItalic24
+		RobotoLight18
 		{
 			"1"
 			{
-				"name"		"Kenzo-Italic"
+				"name"		"Roboto-Light"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoLight20
+		{
+			"1"
+			{
+				"name"		"Roboto-Light"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoLight24
+		{
+			"1"
+			{
+				"name"		"Roboto-Light"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoItalic28
+		RobotoLight32
 		{
 			"1"
 			{
-				"name"		"Kenzo-Italic"
-				"tall"		"28"
-				"antialias" "1"
-			}
-		}
-		
-		KenzoItalic32
-		{
-			"1"
-			{
-				"name"		"Kenzo-Italic"
+				"name"		"Roboto-Light"
 				"tall"		"32"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoItalic36
+		RobotoLight36
 		{
 			"1"
 			{
-				"name"		"Kenzo-Italic"
+				"name"		"Roboto-Light"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoItalic42
+		RobotoLight42
 		{
 			"1"
 			{
-				"name"		"Kenzo-Italic"
+				"name"		"Roboto-Light"
 				"tall"		"42"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoItalic48
+		RobotoLight48
 		{
 			"1"
 			{
-				"name"		"Kenzo-Italic"
+				"name"		"Roboto-Light"
 				"tall"		"42"
 				"antialias" "1"
 			}
 		}
 		
-		KenzoItalic56
+		RobotoBold12
 		{
 			"1"
 			{
-				"name"		"Kenzo-Italic"
-				"tall"		"56"
+				"name"		"Roboto-Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold16
+		{
+			"1"
+			{
+				"name"		"Roboto-Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold18
+		{
+			"1"
+			{
+				"name"		"Roboto-Bold"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold20
+		{
+			"1"
+			{
+				"name"		"Roboto-Bold"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold24
+		{
+			"1"
+			{
+				"name"		"Roboto-Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold32
+		{
+			"1"
+			{
+				"name"		"Roboto-Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold36
+		{
+			"1"
+			{
+				"name"		"Roboto-Bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold42
+		{
+			"1"
+			{
+				"name"		"Roboto-Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoBold48
+		{
+			"1"
+			{
+				"name"		"Roboto-Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular12
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular16
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular18
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular20
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular24
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular32
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular36
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular42
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		RobotoRegular48
+		{
+			"1"
+			{
+				"name"		"Roboto-Regular"
+				"tall"		"42"
 				"antialias" "1"
 			}
 		}
@@ -4465,17 +4672,31 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
+		}
+		"7" 
+		{
+			"font" "resource/fonts/BNT_Oblique.ttf"
+			"name" "BigNoodleTitling-Oblique"		
+		}
+		"8" 
+		{
+			"font" "resource/fonts/BNT_Regular.ttf"
+			"name" "BigNoodleTitling"		
 		}	
-		}
-		"7"
+		"9" 
 		{
-			"font" "resource/fonts_used/Kenzo_Italic.otf"
-			"name" "Kenzo-Italic"
-		}
-		"8"
+			"font" "resource/fonts/RBO_Light.ttf"
+			"name" "Roboto-Light"		
+		}	
+		"10" 
 		{
-			"font" "resource/fonts_used/Kenzo.otf"
-			"name" "Kenzo"
+			"font" "resource/fonts/RBO_Regular.ttf"
+			"name" "Roboto-Regular"		
+		}	
+		"11" 
+		{
+			"font" "resource/fonts/RBO_Bold.ttf"
+			"name" "Roboto-Bold"		
 		}		
 	}
 }
